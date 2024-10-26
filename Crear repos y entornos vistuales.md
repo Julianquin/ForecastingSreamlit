@@ -77,16 +77,17 @@ Te comparto los pasos detallados para crear un repositorio en Git desde Visual S
 
 1. **Estructurar el proyecto**: Define una estructura de carpetas coherente desde el inicio. Por ejemplo:
    ```plaintext
-   project/
-   ├── src/
-   │   ├── __init__.py
-   │   ├── main.py
-   ├── tests/
-   │   ├── __init__.py
-   │   └── test_main.py
-   ├── requirements.txt
-   ├── .gitignore
-   └── README.md
+    project-root/
+    ├── .env/               # Entorno virtual
+    ├── src/                # Código fuente del proyecto
+    │   ├── __init__.py
+    │   ├── main.py
+    ├── tests/              # Pruebas
+    │   ├── __init__.py
+    │   └── test_main.py
+    ├── requirements.txt    # Dependencias del proyecto
+    ├── .gitignore          # Archivos/carpetas a ignorar por Git
+    └── README.md           # Documentación del proyecto
    ```
 
 2. **Desarrollar código**: Trabaja en los archivos dentro de la carpeta `src`, manteniendo el código modular y con funciones bien documentadas.
