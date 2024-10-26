@@ -1,3 +1,4 @@
+chardet
 streamlit
 pandas
 prophet
