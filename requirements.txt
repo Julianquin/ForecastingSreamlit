@@ -2,3 +2,4 @@ chardet
 streamlit
 pandas
 prophet
+plotly
